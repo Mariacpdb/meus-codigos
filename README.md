@@ -1,2 +1,17 @@
 # meus-codigos
 meus codigos e projetos
+programa {
+  funcao inicio() {
+    inteiro A,B,X
+
+
+    escreva ("Informe um número:  ")
+    leia (A)
+    escreva ("Informe outro número:  ")
+    leia (B)
+    X = A + B
+
+    escreva ("A soma entre ",A ," e ",B,"  é igual a: ", X )
+  
+  }
+}
