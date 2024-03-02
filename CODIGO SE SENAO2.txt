@@ -1,0 +1,33 @@
+programa {
+  funcao inicio() {
+    //idade
+    //var
+    real N1, N2, N3
+    //inicio
+    escreva ("Qual a sua idade?: ")
+    leia (N1)
+    se (N1 < 10){ 
+      escreva ("Voce e uma crianca")}
+    
+     senao se (N1 >= 10 e N1 <= 14){
+     escreva ("Voce é um pre adolescente")}
+      senao se (N1 >= 15 e N1 <= 18){
+        escreva ("Voce e um adolescente")}
+        senao se (N1 > 18 e N1 < 60){ 
+          escreva ("Voce é adulto")}
+          se (N1 >= 60){ 
+            escreva ("Voce e idoso")
+          }
+
+        }
+      }
+
+     }
+
+    
+     
+
+    }
+    
+  }
+}
