@@ -1,0 +1,21 @@
+programa {
+
+  funcao inicio () {
+
+inteiro Maria, Clara
+   real Palhares
+   inteiro Diniz, Braz 
+   real Semnome
+   real Semnome2
+   escreva ("informe o codigo, o numero e o valor da peca 1: ")
+   leia (Maria, Clara, Palhares)
+   escreva ("informe o codigo, o numero e o valor da peca 2: ")
+   leia (Diniz, Braz, Semnome)
+
+   Semnome2 = Palhares + Semnome
+  
+   
+
+   escreva ("VALOR A PAGAR = ", "R$ ", Semnome2)
+}
+}

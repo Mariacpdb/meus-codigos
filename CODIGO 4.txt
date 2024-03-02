@@ -1,0 +1,14 @@
+programa {
+
+  funcao inicio () {
+inteiro A
+   inteiro B
+   inteiro PROD
+   escreva ("informe um numero: ")
+   leia (A)
+   escreva ("informe outro numero: ")
+   leia (B)
+   PROD = A + B
+   escreva ("PROD = ", PROD)
+}
+}

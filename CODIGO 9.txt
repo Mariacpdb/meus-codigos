@@ -1,0 +1,17 @@
+programa {
+
+  funcao inicio () {
+
+real raio 
+   real resp
+   real pi
+   escreva ("informe o valor do raio: ")
+   leia (raio)
+   pi = 3.14159
+   resp = (4/3) * pi * raio * raio * raio
+  
+   
+
+   escreva ("VALOR DO VOLUME E = ", resp)
+}
+}

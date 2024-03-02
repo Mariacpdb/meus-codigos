@@ -1,0 +1,23 @@
+programa {
+
+  funcao inicio () {
+
+caracter Maria
+   real Clara
+   real Palhares
+   real Diniz
+   real Braz
+   escreva ("informe o nome do vendedor: ")
+   leia (Maria)
+   escreva ("informe o salario fixo: ")
+   leia (Clara)
+   escreva ("informe o total de vendas efetuadas por mes em dinheiro: ")
+   leia (Palhares)
+
+   Diniz = (Palhares * 15) / 100
+   Braz = Diniz + Clara
+   
+
+   escreva ("O salario total a receber ao final do mes e: TOTAL = ", "R$ ", Braz)
+}
+}

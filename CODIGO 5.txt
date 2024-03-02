@@ -1,0 +1,23 @@
+programa {
+
+  funcao inicio () {
+
+inteiro A
+   inteiro B
+   inteiro C
+   inteiro D
+   inteiro DIFERENCA
+   escreva ("informe um numero: ")
+   leia (A)
+   escreva ("informe outro numero: ")
+   leia (B)
+   escreva ("informe outro numero: ")
+   leia (C)
+   escreva ("informe outro numero: ")
+   leia (D)
+   DIFERENCA = A * B - C * D
+
+   escreva ("DIFERENCA = ", DIFERENCA)
+
+}
+}

@@ -1,0 +1,20 @@
+programa {
+
+  funcao inicio () {
+
+real Maria
+   real Clara
+   real Palhares
+   real Diniz
+   escreva ("informe o numero de funcionario: ")
+   leia (Maria)
+   escreva ("informe o numero de horas trabalhadas: ")
+   leia (Clara)
+   escreva ("informe o valor que recebe por hora: ")
+   leia (Palhares)
+   Diniz = Clara * Palhares
+   
+
+   escreva ("O salario do funcionario e: = ", "U$ ", Diniz)
+}
+}

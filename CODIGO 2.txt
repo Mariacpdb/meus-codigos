@@ -1,0 +1,19 @@
+programa {
+
+  funcao inicio () {
+  
+
+
+
+real raio 
+    real area 
+    real pi = 3.1415
+     
+    escreva ("Informe o valor do raio:")
+    leia (raio)
+    area = pi * raio * raio
+    escreva ("O valor da area e:")
+    escreva ("A= ", area)
+
+    }
+    }

@@ -1,0 +1,19 @@
+programa { 
+  funcao inicio() {
+    inteiro a
+    inteiro b
+    inteiro c
+    escreva ("qual ano vc nasceu? " )
+     leia (a)
+     escreva ("qual o ano atual? " )
+     leia (b)
+     c = b - a 
+     se (c > 18) { escreva ("Apto a dirigir: " ,c, " anos")
+
+     }senao{ 
+      escreva1 ("não pode dirigir")
+     }
+
+      }
+    
+  }

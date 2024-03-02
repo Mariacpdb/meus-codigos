@@ -1,0 +1,34 @@
+programa {
+
+  funcao inicio () {
+
+real A
+   real B
+   real C
+   real D
+   real E
+   real F
+   real G
+   real H
+   real pi
+   
+
+   escreva ("informe os valores de A, B e C ")
+   leia (A)
+   leia (B)
+   leia (C)
+
+   D = (1/2) * A * B
+   pi = 3.14159
+   E = pi * C * C
+   F = ((A + B) * C) / 2
+   G = B * B
+   H = A * B
+
+   escreva (" TRIANGULO = ", D ,",")
+    escreva (" CIRCULO = ", E ,",")
+    escreva (" TRAPEZIO = ", F, ",")
+    escreva (" QUADRADO = ", G ,",")
+    escreva (" RETANANGULO = ", H)
+}
+}

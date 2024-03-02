@@ -1,0 +1,15 @@
+programa {
+
+  funcao inicio () {
+inteiro A
+   inteiro B
+   inteiro SOMA
+   escreva ("informe um numero: ")
+   leia (A)
+   escreva ("informe outro numero: ")
+   leia (B)
+   SOMA = A + B
+   escreva ("SOMA = ", SOMA)
+
+}
+}
