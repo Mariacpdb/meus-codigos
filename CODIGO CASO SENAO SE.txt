@@ -22,17 +22,20 @@ programa {
       caso 4: escreva ("Voce doou 100 reais, obrigado!")
       pare
       caso 5: escreva ("Digite o valor que queira doar: " )
-      leia (valor)
-      se (valor > 100) escreva ("Voce doou, " ,valor, " reais, obrigado!")
-      senao (valor < 100) escreva ("Valor inválido, deve ser maior que 100 reais")
+      leia (valor) 
+      se (valor < 100) {  escreva ("Valor inválido, esta opcao serve para doar mais de 100 reais")}
       pare
+      
      }
      se (opcao > 5 ou opcao < 1) {
       escreva ("Opcao invalida")}
-
+ 
+      senao se (valor > 100){ 
+      escreva ("Voce doou ", valor ," reais, obrigado!")}
     
-    }
-     }
+      
+    
+     
 
 
   }
