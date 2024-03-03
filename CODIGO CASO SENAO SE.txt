@@ -1,0 +1,39 @@
+programa {
+  funcao inicio() {
+    //crianca esperanca
+    real opcao
+    real valor
+    escreva ("----------------------------------\n")
+    escreva ("  BEM VINDO AO CRIANCA ESPERANCA\n " )
+    escreva ("----------------------------------\n")
+    escreva ("Para doar 30 reais digite (1):\n " )
+    escreva ("Para doar 50 reais digite (2):\n ")
+    escreva ("Para doar 80 reais digite (3):\n ")
+    escreva ("Para doar 100 reais digite (4):\n ")
+    escreva ("Para doar mais digite (5):\n ")
+    leia (opcao)
+     escolha (opcao){
+      caso 1: escreva ("Voce doou 30 reais, obrigado!")
+      pare
+      caso 2: escreva ("Voce doou 50 reais, obrigado!")
+      pare
+      caso 3: escreva ("Voce doou 80 reais, obrigado!")
+      pare
+      caso 4: escreva ("Voce doou 100 reais, obrigado!")
+      pare
+      caso 5: escreva ("Digite o valor que queira doar: " )
+      leia (valor)
+      se (valor > 100) escreva ("Voce doou, " ,valor, " reais, obrigado!")
+      senao (valor < 100) escreva ("Valor inválido, deve ser maior que 100 reais")
+      pare
+     }
+     se (opcao > 5 ou opcao < 1) {
+      escreva ("Opcao invalida")}
+
+    
+    }
+     }
+
+
+  }
+}
