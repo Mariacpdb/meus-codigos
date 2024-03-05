@@ -1,0 +1,11 @@
+programa {
+  funcao inicio() {
+    caracter continuar = 's'
+    enquanto (continuar == 's'){
+    escreva (" teste\n")
+    escreva ("Digite n para sair e s para continuar\n")
+    leia (continuar)
+  }
+
+  }
+}
