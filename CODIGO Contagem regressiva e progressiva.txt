@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+    real n1, n2
+    
+    escreva ("Inicio: ")
+    leia(n1)
+
+    escreva ("Fim: ")
+    leia(n2)
+
+    se (n1 < n2) {
+      enquanto (n1 <= n2) {
+        escreva ("\n", n1)
+        n1++
+      }
+    } senao {
+       enquanto (n1 >= n2 ) {
+         escreva ("\n", n1)
+         n1 = n1 - 1
+       }
+    }
+  }
+}
